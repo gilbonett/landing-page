@@ -2,3 +2,72 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.caixa {
+    display: flex;
+    background: #FFC433;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px black solid;
+}
+
+.caixa img {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.menu li{
+    padding: 2rem;
+}
+
+.promocao img{
+    height: 200px;
+    width: 200px;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+    height: 400px;
+    align-items: center;
+}
+
+.produtos h2{
+    font-size: 40px;
+}
+
+.caixinha{
+    background-color: antiquewhite;
+    height: 300px;
+    width: 200px;
+    border-radius: 12px;
+}
+
+.caixinha h3{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.caixinha p {
+    display: flex;
+    text-align: center;
+}
